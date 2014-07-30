@@ -10,9 +10,10 @@
 Pod::Spec.new do |s|
   s.name             = "MLPAutoCompleteTextField_JVFloatLabeledTextField"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MLPAutoCompleteTextField_JVFloatLabeledTextField."
+  s.summary          = "MLPAutoCompleteTextField and JVFloatLabeledTextField combined for your needs."
   s.description      = <<-DESC
                        Merge between MLPAutoCompleteTextField and JVFloatLabeledTextField.
+                       Since Objective-C does not allow multiple inheritance, here is your solution.
                        DESC
   s.homepage         = "https://github.com/Iterar/MLPAutoCompleteTextField_JVFloatLabeledTextField"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
