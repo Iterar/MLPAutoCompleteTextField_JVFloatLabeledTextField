@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MLPAutoCompleteTextField_JVFloatLabeledTextField/MLPAutoCompleteTextField_JVFloatLabeledTextField.h>
 
-@interface ITViewController : UIViewController
+@interface ITViewController : UIViewController <MLPAutoCompleteTextFieldDataSource>
 
 @end
